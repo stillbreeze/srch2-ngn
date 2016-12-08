@@ -1,0 +1,269 @@
+2016-11-16 20:00:12 INFO	__DEFAULTCORE__: Creating indexes from JSON file...
+2016-11-16 20:00:12 INFO	Indexed 243 / 243 records.
+2016-11-16 20:00:12 INFO	Finalizing ...
+2016-11-16 20:00:12 INFO	Saving Indexes ...
+2016-11-16 20:00:12 INFO	Indexes saved.
+2016-11-16 20:00:13 INFO	Starting Srch2 server with 2 serving threads at 0.0.0.0:8081
+2016-11-16 20:00:13 INFO	Routing port 0 route /search to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /suggest to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /info to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /docs to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /update to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /save to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /export to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /resetLogger to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /aclAttributeRoleReplace to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /aclAttributeRoleDelete to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /aclAttributeRoleAppend to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /aclRecordRoleReplace to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /aclRecordRoleAppend to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /aclRecordRoleDelete to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /feedback to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Socket accept by thread 0 on port 8081
+2016-11-16 20:00:13 INFO	Routing port 0 route /search to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /suggest to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /info to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /docs to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /update to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /save to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /export to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /resetLogger to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /aclAttributeRoleReplace to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /aclAttributeRoleDelete to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /aclAttributeRoleAppend to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /aclRecordRoleReplace to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /aclRecordRoleAppend to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /aclRecordRoleDelete to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Routing port 0 route /feedback to default core __DEFAULTCORE__
+2016-11-16 20:00:13 INFO	Socket accept by thread 1 on port 8081
+2016-11-16 20:00:20 INFO	ENTERING searchCommand()
+2016-11-16 20:00:20 INFO	ENTERING doSearchOneCore()
+2016-11-16 20:00:20 INFO	ENTERING printResults()
+2016-11-16 20:00:20 INFO	ENTERING genRecordJsonString2()
+2016-11-16 20:00:20 INFO	EXITING genRecordJsonString2()
+2016-11-16 20:00:20 INFO	ENTERING genSnippetJSONString()
+2016-11-16 20:00:20 INFO	EXITING genSnippetJSONString()
+2016-11-16 20:00:20 INFO	ENTERING genRecordJsonString2()
+2016-11-16 20:00:20 INFO	EXITING genRecordJsonString2()
+2016-11-16 20:00:20 INFO	ENTERING genSnippetJSONString()
+2016-11-16 20:00:20 INFO	EXITING genSnippetJSONString()
+2016-11-16 20:00:20 INFO	ENTERING genRecordJsonString2()
+2016-11-16 20:00:20 INFO	EXITING genRecordJsonString2()
+2016-11-16 20:00:20 INFO	ENTERING genSnippetJSONString()
+2016-11-16 20:00:20 INFO	EXITING genSnippetJSONString()
+2016-11-16 20:00:20 INFO	ip: 127.0.0.1, port: 57252 GET query: search?q=terminator, searcher_time: 0 ms, highlighter_time: 0 ms, payload_access_time: 0 ms
+2016-11-16 20:00:20 INFO	EXITING printResults()
+2016-11-16 20:00:20 INFO	EXITING doSearchOneCore()
+2016-11-16 20:00:20 INFO	EXITING searchCommand()
+2016-11-16 20:03:37 INFO	Stopping server.
+2016-11-16 20:03:37 INFO	Thread = <1426609920> stopped
+2016-11-16 20:03:37 INFO	Thread = <1418217216> stopped
+2016-11-16 20:03:37 INFO	Server stopped successfully
+2016-11-16 20:04:55 INFO	query index not found during load.
+2016-11-16 20:04:55 WARN	The protected words file = "" could not be opened.
+2016-11-16 20:04:56 INFO	Starting Srch2 server with 2 serving threads at 0.0.0.0:8081
+2016-11-16 20:04:56 INFO	Routing port 0 route /search to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /suggest to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /info to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /docs to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /update to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /save to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /export to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /resetLogger to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /aclAttributeRoleReplace to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /aclAttributeRoleDelete to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /aclAttributeRoleAppend to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /aclRecordRoleReplace to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /aclRecordRoleAppend to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /aclRecordRoleDelete to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /feedback to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Socket accept by thread 0 on port 8081
+2016-11-16 20:04:56 INFO	Routing port 0 route /search to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /suggest to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /info to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /docs to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /update to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /save to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /export to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /resetLogger to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /aclAttributeRoleReplace to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /aclAttributeRoleDelete to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /aclAttributeRoleAppend to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /aclRecordRoleReplace to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /aclRecordRoleAppend to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /aclRecordRoleDelete to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Routing port 0 route /feedback to default core __DEFAULTCORE__
+2016-11-16 20:04:56 INFO	Socket accept by thread 1 on port 8081
+2016-11-17 12:41:18 INFO	query index not found during load.
+2016-11-17 12:41:18 WARN	The protected words file = "" could not be opened.
+2016-11-17 12:41:19 INFO	Starting Srch2 server with 2 serving threads at 0.0.0.0:8081
+2016-11-17 12:41:19 INFO	Routing port 0 route /search to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /suggest to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /info to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /docs to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /update to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /save to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /export to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /resetLogger to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /aclAttributeRoleReplace to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /aclAttributeRoleDelete to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /aclAttributeRoleAppend to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /aclRecordRoleReplace to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /aclRecordRoleAppend to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /aclRecordRoleDelete to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /feedback to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Socket accept by thread 0 on port 8081
+2016-11-17 12:41:19 INFO	Routing port 0 route /search to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /suggest to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /info to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /docs to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /update to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /save to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /export to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /resetLogger to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /aclAttributeRoleReplace to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /aclAttributeRoleDelete to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /aclAttributeRoleAppend to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /aclRecordRoleReplace to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /aclRecordRoleAppend to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /aclRecordRoleDelete to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Routing port 0 route /feedback to default core __DEFAULTCORE__
+2016-11-17 12:41:19 INFO	Socket accept by thread 1 on port 8081
+2016-11-17 12:41:47 INFO	Stopping server.
+2016-11-17 12:41:47 INFO	Thread = <2775250688> stopped
+2016-11-17 12:41:47 INFO	Thread = <2766857984> stopped
+2016-11-17 12:41:47 INFO	Server stopped successfully
+2016-11-17 12:41:59 INFO	query index not found during load.
+2016-11-17 12:41:59 WARN	The protected words file = "" could not be opened.
+2016-11-17 12:42:00 INFO	Starting Srch2 server with 2 serving threads at 0.0.0.0:8081
+2016-11-17 12:42:00 INFO	Routing port 0 route /search to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /suggest to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /info to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /docs to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /update to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /save to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /export to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /resetLogger to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /aclAttributeRoleReplace to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /aclAttributeRoleDelete to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /aclAttributeRoleAppend to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /aclRecordRoleReplace to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /aclRecordRoleAppend to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /aclRecordRoleDelete to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /feedback to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Socket accept by thread 0 on port 8081
+2016-11-17 12:42:00 INFO	Routing port 0 route /search to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /suggest to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /info to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /docs to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /update to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /save to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /export to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /resetLogger to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /aclAttributeRoleReplace to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /aclAttributeRoleDelete to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /aclAttributeRoleAppend to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /aclRecordRoleReplace to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /aclRecordRoleAppend to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /aclRecordRoleDelete to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Routing port 0 route /feedback to default core __DEFAULTCORE__
+2016-11-17 12:42:00 INFO	Socket accept by thread 1 on port 8081
+2016-11-17 12:42:17 INFO	ENTERING searchCommand()
+2016-11-17 12:42:17 INFO	ENTERING doSearchOneCore()
+2016-11-17 12:42:17 INFO	ENTERING printResults()
+2016-11-17 12:42:17 INFO	ENTERING genRecordJsonString2()
+2016-11-17 12:42:17 INFO	EXITING genRecordJsonString2()
+2016-11-17 12:42:17 INFO	ENTERING genSnippetJSONString()
+2016-11-17 12:42:17 INFO	EXITING genSnippetJSONString()
+2016-11-17 12:42:17 INFO	ENTERING genRecordJsonString2()
+2016-11-17 12:42:17 INFO	EXITING genRecordJsonString2()
+2016-11-17 12:42:17 INFO	ENTERING genSnippetJSONString()
+2016-11-17 12:42:17 INFO	EXITING genSnippetJSONString()
+2016-11-17 12:42:17 INFO	ENTERING genRecordJsonString2()
+2016-11-17 12:42:17 INFO	EXITING genRecordJsonString2()
+2016-11-17 12:42:17 INFO	ENTERING genSnippetJSONString()
+2016-11-17 12:42:17 INFO	EXITING genSnippetJSONString()
+2016-11-17 12:42:17 INFO	ip: 127.0.0.1, port: 57294 GET query: search?q=terminator, searcher_time: 0 ms, highlighter_time: 0 ms, payload_access_time: 0 ms
+2016-11-17 12:42:17 INFO	EXITING printResults()
+2016-11-17 12:42:17 INFO	EXITING doSearchOneCore()
+2016-11-17 12:42:17 INFO	EXITING searchCommand()
+2016-11-17 12:42:22 INFO	ENTERING searchCommand()
+2016-11-17 12:42:22 INFO	ENTERING doSearchOneCore()
+2016-11-17 12:42:22 INFO	EXITING doSearchOneCore()
+2016-11-17 12:42:22 INFO	EXITING searchCommand()
+2016-11-17 12:42:33 INFO	ENTERING searchCommand()
+2016-11-17 12:42:33 INFO	ENTERING doSearchOneCore()
+2016-11-17 12:42:33 INFO	ENTERING printResults()
+2016-11-17 12:42:33 INFO	ip: 127.0.0.1, port: 57298 GET query: search?q=theft, searcher_time: 0 ms, highlighter_time: 0 ms, payload_access_time: 0 ms
+2016-11-17 12:42:33 INFO	EXITING printResults()
+2016-11-17 12:42:33 INFO	EXITING doSearchOneCore()
+2016-11-17 12:42:33 INFO	EXITING searchCommand()
+2016-11-17 12:46:06 INFO	Stopping server.
+2016-11-17 12:46:06 INFO	Thread = <818489088> stopped
+2016-11-17 12:46:06 INFO	Thread = <810096384> stopped
+2016-11-17 12:46:06 INFO	Server stopped successfully
+2016-11-17 12:52:49 INFO	query index not found during load.
+2016-11-17 12:52:49 WARN	The protected words file = "" could not be opened.
+2016-11-17 12:52:50 INFO	Starting Srch2 server with 2 serving threads at 0.0.0.0:8081
+2016-11-17 12:52:50 INFO	Routing port 0 route /search to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /suggest to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /info to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /docs to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /update to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /save to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /export to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /resetLogger to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /aclAttributeRoleReplace to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /aclAttributeRoleDelete to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /aclAttributeRoleAppend to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /aclRecordRoleReplace to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /aclRecordRoleAppend to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /aclRecordRoleDelete to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /feedback to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Socket accept by thread 0 on port 8081
+2016-11-17 12:52:50 INFO	Routing port 0 route /search to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /suggest to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /info to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /docs to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /update to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /save to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /export to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /resetLogger to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /aclAttributeRoleReplace to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /aclAttributeRoleDelete to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /aclAttributeRoleAppend to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /aclRecordRoleReplace to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /aclRecordRoleAppend to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /aclRecordRoleDelete to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Routing port 0 route /feedback to default core __DEFAULTCORE__
+2016-11-17 12:52:50 INFO	Socket accept by thread 1 on port 8081
+2016-11-17 12:52:57 INFO	ENTERING searchCommand()
+2016-11-17 12:52:57 INFO	ENTERING doSearchOneCore()
+2016-11-17 12:52:57 INFO	ENTERING printResults()
+2016-11-17 12:52:57 INFO	ip: 127.0.0.1, port: 57336 GET query: search?q=theft, searcher_time: 1 ms, highlighter_time: 0 ms, payload_access_time: 0 ms
+2016-11-17 12:52:57 INFO	EXITING printResults()
+2016-11-17 12:52:57 INFO	EXITING doSearchOneCore()
+2016-11-17 12:52:57 INFO	EXITING searchCommand()
+2016-11-17 12:53:08 INFO	ENTERING searchCommand()
+2016-11-17 12:53:08 INFO	ENTERING doSearchOneCore()
+2016-11-17 12:53:08 INFO	ENTERING printResults()
+2016-11-17 12:53:08 INFO	ENTERING genRecordJsonString2()
+2016-11-17 12:53:08 INFO	EXITING genRecordJsonString2()
+2016-11-17 12:53:08 INFO	ENTERING genSnippetJSONString()
+2016-11-17 12:53:08 INFO	EXITING genSnippetJSONString()
+2016-11-17 12:53:08 INFO	ENTERING genRecordJsonString2()
+2016-11-17 12:53:08 INFO	EXITING genRecordJsonString2()
+2016-11-17 12:53:08 INFO	ENTERING genSnippetJSONString()
+2016-11-17 12:53:08 INFO	EXITING genSnippetJSONString()
+2016-11-17 12:53:08 INFO	ENTERING genRecordJsonString2()
+2016-11-17 12:53:08 INFO	EXITING genRecordJsonString2()
+2016-11-17 12:53:08 INFO	ENTERING genSnippetJSONString()
+2016-11-17 12:53:08 INFO	EXITING genSnippetJSONString()
+2016-11-17 12:53:08 INFO	ip: 127.0.0.1, port: 57338 GET query: search?q=terminator, searcher_time: 0 ms, highlighter_time: 0 ms, payload_access_time: 1 ms
+2016-11-17 12:53:08 INFO	EXITING printResults()
+2016-11-17 12:53:08 INFO	EXITING doSearchOneCore()
+2016-11-17 12:53:08 INFO	EXITING searchCommand()
+2016-11-17 13:09:33 INFO	Stopping server.
+2016-11-17 13:09:33 INFO	Thread = <3849258752> stopped
+2016-11-17 13:09:33 INFO	Thread = <3840866048> stopped
+2016-11-17 13:09:33 INFO	Server stopped successfully
